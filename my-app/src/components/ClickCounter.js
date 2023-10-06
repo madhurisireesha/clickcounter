@@ -23,14 +23,14 @@ class ClickCounter extends Component{
                 
                 <h1 className="count">Bob eat bananas <span style={{color:"red"}}>{bananacount}</span> times and mangoes<span style={{color:"red"}}>{mangocount}</span>times</h1>
                 <div className='fruits'>
-                    <div className='mango'>
+                    <div className='m'>
                         <img src="https://media.istockphoto.com/id/173242750/photo/banana-bunch.jpg?s=612x612&w=0&k=20&c=MAc8AXVz5KxwWeEmh75WwH6j_HouRczBFAhulLAtRUU=" alt="mango" className="i"/>
-                <button className="button" onClick={this.onEatBanana}>Banana</button>
-                </div>
-                <div className='banana'>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKI15swBeYhpt_dBQPz_sB3Kj35zal1eGHCtA-IKUe4w&s" alt="banana" className="i"/>
-                <button className="button" onClick={this.onEatMango}>Mango</button>
-                </div>
+                        <button className="button" onClick={this.onEatBanana}>Banana</button>
+                    </div>
+                    <div className='m'>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKI15swBeYhpt_dBQPz_sB3Kj35zal1eGHCtA-IKUe4w&s" alt="banana" className="i"/>
+                        <button className="button" onClick={this.onEatMango}>Mango</button>
+                    </div>
                 </div>
             </div>
         )
