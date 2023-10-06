@@ -15,6 +15,7 @@ class ClickCounter extends Component{
             mangocount:prevState.mangocount+1
         }));
     }
+    
     render(){
         const{bananacount}=this.state;
         const{mangocount}=this.state;
